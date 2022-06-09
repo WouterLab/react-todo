@@ -11,7 +11,7 @@ const data = [
   },
   {
     id: 1,
-    title: "Купить Porsche",
+    title: "Купить машину",
     isCompleted: false,
   },
   {
