@@ -5,7 +5,7 @@ const NewTodo = ({ setTodos }) => {
   const [title, setTitle] = useState("");
 
   const addTodo = (title) => {
-    if (title != "") {
+    if (title !== "") {
       setTodos((prev) => [
         {
           id: new Date(),
